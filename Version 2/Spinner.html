@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>CSS Spinners</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<h1>Welcome to my CSS spinner demo</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis ligula, hendrerit a placerat sed, efficitur nec risus. Nunc felis orci, viverra nec diam at, viverra ultricies est. Donec quis lacus in neque dictum facilisis. Nullam ornare odio id lectus maximus fermentum. Cras sed bibendum quam, ac vulputate tortor. Curabitur ac nulla dapibus massa dapibus viverra. Curabitur at enim et urna congue pulvinar ac eget urna. Pellentesque sit amet ante vitae tortor porttitor rutrum.</p>
+	</div>
+
+<script>
+	document.querySelector('.main p').style.display = 'none';
+	document.querySelector('.main').classList.add('spinner-3');
+
+	// Mimic server request
+	setTimeout(() => {
+		document.querySelector('.main').classList.remove('spinner-3');
+		document.querySelector('.main p').style.display = 'block';
+	}, 4000);
+</script>
+</body>
+</html>
