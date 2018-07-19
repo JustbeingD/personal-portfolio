@@ -161,3 +161,16 @@ ul {
 	color: red;
 	float: right;
 }
+
+.hard-skills {
+	display: grid;
+	grid-template-rows: auto;
+	grid-gap: 20px;
+	grid-template-areas: "htmlSkill cssSkill javascriptSkill";
+}
+.html-skills {
+	grid-area: htmlSkill;
+}
+.css-skills {
+	grid-area: cssSkill;
+}
