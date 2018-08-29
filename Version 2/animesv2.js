@@ -67,3 +67,5 @@ var el = document.querySelector(".head-me");
     duration: 6500,
     easing: 'easeInQuad'
   });
+
+  

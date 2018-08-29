@@ -11,20 +11,17 @@
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg">
 		<div class="container">
-			<div class = "navbar-brand">JustbeingD</div>
+			<a class="navbar-brand" href="#">Denis Rawls</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse justify-content-end navbar-dark" id="navbarNav">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav cf">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#portfolio">Portfolio</a>
@@ -91,79 +88,68 @@
 		<div class="skills-header">
 			<h2 class="display-4">Skills</h2>
 			<hr class="my-2">
-		</div>
-			<!-- <div class="row justify-content-md-center">
-				<div class="col col-lg-3">
-					<button>HTML</button>
-					<p> 95%</p>
-					<button>CSS</button>
-					<p>95%</p>
-					<button>JavaScript</button>
-					<button>Bootstrap</button>
-					<button>jQuery</button>
-					<button>NodeJS</button>
-					<button>MongoDB</button>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box">
+						<img class="skillImages"src="./images/html5.png">
+						<h3>HTML5</h3>
+						<p>I utilize semantically appropriate elements for maintanable code, accessibility and SEO</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<img class="skillImages" src="./images/css3.png">
+						<img class="skillImages" src="./images/bootstrap.png">	
+						<h3>CSS</h3>
+						<p>I am proficient with CSS Grid and media queries along with BootStrap to ensure responsiveness.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<img class="skillImages" src="./images/javascript.png">
+						<img class="skillImages" src="./images/jquery.png">
+						<img class="skillImages" src="./images/nodejs.png">
+						<img class="skillImages" src="./images/react.png">
+						<h3>JavaScript</h3>
+						<p>I am familar with Javascript have been currently learning to create projects with React.</p>
+					</div>
 				</div>
 			</div>
-	<h3>Languages/Frameworks:</h3>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>Bootstrap</li>
-					<li>jQuery</li>
-					<li>NodeJS</li>
-				</ul> -->
-				<div class="hard-skills">
-					<div class="html-skills">
-						<h3>HTML</h3>
-						<span>
-							<img class="skillImages"src="./images/html5.png">
-						</span>
-						<div>
-						<p class="skillComments">I utilize semantically appropriate elements for maintanable code, accessibility and SEO</p>
-						</div>
-					</div>
-					<div class="css-skills">
-						<h3>CSS</h3>
-						<span>
-							<img class="skillImages" src="./images/css3.png">
-							<img class="skillImages" src="./images/bootstrap.png">			
-						</span>
-						<p class="skillComments">I am proficient with CSS Grid and media queries along with BootStrap to ensure responsiveness.</p>
-					</div>
-					<div class="javascript-skills">
-						<h3>Javascript</h3>
-						<span>
-							<img class="skillImages" src="./images/javascript.png">
-							<img class="skillImages" src="./images/jQuery.png">
-							<img class="skillImages" src="./images/nodejs.png">
-							<img class="skillImages" src="./images/react.png">
-						</span>
-						<p class="skillComments">I am familar with Javascript have been currently learning to create projects with React.</p>
-					</div>
-				</div>
-	
+		</div>	
 	</div> <!-- closing container -->
 </section>
-
-
-
-
 <section id="portfolio">
 	<div class="container">
 		<div class="port-header">
 			<h2 class="display-4">Portfolio</h2>
 			<hr class="my-2">
 		</div>
-		<div class="card" style="width: 20rem;">
-			<img class="card-img-top" src="https://hypb.imgix.net/image/2017/01/sonny-liston-muhammad-ali-fight-2-fixed-dive-cheat-bribe-1.jpg?q=75&w=750&fit=max&auto=compress%2Cformat" alt="Muhammad Ali over Sony liston">
-			<div class="card-block">
-				<h4 class="card-title">Muhammad Ali timeline</h4>
-				<p class="card-text">A timeline of the greatest boxer of all time.</p>
-				<a href="https://codepen.io/JustbeingD/pen/rdMmbY?editors=1000" target="_blank" class="btn btn-dark">View</a>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card" style="width: 20rem; padding: 5px">
+					<a href="https://blogger-app1.herokuapp.com/blogs" target="_blank" > 
+					<img class="card-img-top" src="./images/blogapp.png">
+					<div class="card-block">
+						<h4 class="card-title">Blog App</h4>
+						<p class="card-text">Blog app created with Semantic UI, Node JS and Express</p>
+						</a>
+					</div>
+				</div>
 			</div>
+			<!-- <div class="col-sm-4">
+				<a href="https://wwww.google.com" target="_blank" > 
+				<div class="card" style="width: 20rem; padding: 5px;">
+					
+						<img class="card-img-top" src="">
+					<div class="card-block">
+						<h4 class="card-title">Padatap Clone</h4>
+						<p class="card-text">A clone of th Padatap app</p>
+						</a>
+					</div>
+				</div>
+			</div> -->
 		</div>
+
 	</div> <!-- closing container -->
 </section>
 
@@ -171,8 +157,9 @@
 <section id="contact">
 	<div class="container">
 		<div id="icons">
-			<a href="https://www.linkedin.com/in/denis-rawls-55a366133/"><i class="fab fa-linkedin fa-3x"></i></a>
-			<a href="https://github.com/JustbeingD"><i class="fab fa-github fa-3x"></i></a>
+			<a href="https://www.linkedin.com/in/denis-rawls-55a366133/"><i class="fab fa-linkedin fa-2x"></i></a>
+			<a href="https://github.com/JustbeingD"><i class="fab fa-github fa-2x"></i></a>
+			<a href="mailto:denrawls@gmail.com"><i class="fas fa-at fa-2x"></i></a>
 			</div>
 			<h3>Connect with me on Social Media</h3>
 			<p>This website was designed and coded by <strong>Denis Rawls.</strong> Copyright 2018 &copy; Denis Rawls. All rights reserved.</p>
@@ -180,14 +167,35 @@
 </section>
 <!-- closing container -->
 
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
 <script type="text/javascript" src="animesv2.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 <script
-  src="https://code.jquery.com/jquery-3.3.1.slim.js"
-  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
 </body>
+<script>
+		$('.cf a').on('click', function(event) {
+		if (this.hash !== '') {
+		  event.preventDefault();
+	  
+		  const hash = this.hash;
+	  
+		  $('html, body').animate(
+			{
+			  scrollTop: $(hash).offset().top 
+			},
+			800,
+			function() {
+			  window.location.hash = hash;
+			}
+		  );
+		}
+	  });
+	  </script>
 </html>
