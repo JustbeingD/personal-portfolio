@@ -26,7 +26,7 @@ var lineDrawing = anime({
   	var d = document.querySelectorAll('.lines');
   	var m;
   	for (m = 0; m < d.length; m++){
-  	d[m].setAttribute("fill", "red");
+  	d[m].setAttribute("fill", "#ff0033");
   };
   }
 });
