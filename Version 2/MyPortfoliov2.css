@@ -175,7 +175,7 @@ hr{
 	padding: 10px 0 10px 0;
 }
 
-#skills h2, #portfolio h2{
+#skills h2, #portfolio h2, #contact h2{
 	padding-bottom: 50px;
 	text-align: center;
 	color: white;
@@ -192,20 +192,75 @@ ul {
 	list-style-type: none;
 }
 
+/* Contact */
+
 #contact{
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	width: 100%;
+	margin: 0;
+	min-height: 500px;
+	background-image: url(worldmap.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-cover{
+	padding: 60px 0;
+    background: rgba(0, 0, 19, 0.6);
+    width:100%;
+    min-height: 500px;
+    background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+	color: var(--light-font-color);
+}
+
+.message-btn {
+    font-family: 'Radley', serif;
+    background: black;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    text-decoration: none;
+    color: #fefdfd;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+
+}
+.message-btn:hover{
+	transform: translateY(-1px);
+	background: var(--link-hover-color);
+    color: black;
+    text-decoration: none;
+}
+
+.send-btn:hover{
+	transform: translateY(-1px);
+	background: var(--link-hover-color);
+    color: black;
+    text-decoration: none;
+}
+/* Footer */
+#footer{
 	background-color: rgba(52, 53, 55, .95);
 	padding-top: 60px;
 	min-height: 165px;
 
 }
 
-#contact p, #contact h3 {
+#footer p, #footer h3 {
 	max-width: 300px;
 	text-align: left;
 	color: lightgray;
 }
 
-#contact p {
+#footer p {
 	font-size: 15px;
 	margin: 0;
 
